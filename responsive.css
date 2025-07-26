@@ -1,0 +1,267 @@
+/* ==============================media screen for tablat============================================ */
+@media (max-width: 800px) {
+  nav {
+    max-width: 90vw;
+    padding: 0 20px;
+  }
+
+  .hero > :nth-child(1),
+  .hero > :nth-child(2) {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .hero > :nth-child(3) {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .hero > :nth-child(4) {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .start input {
+    width: 200px;
+    padding: 12px 20px;
+  }
+
+  .start {
+    flex-direction: column;
+  }
+
+  .start button {
+    width: auto;
+    padding: 10px 30px;
+  }
+
+  .main2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pics img {
+    position: static;
+    display: block;
+    margin: 10px auto;
+    height: 200px;
+  }
+
+  .num {
+    text-align: center;
+  }
+
+  .num span {
+    font-size: 80px;
+    margin: 20px;
+  }
+
+  .scroll {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .faq {
+    width: 100%;
+  }
+
+  .item {
+    width: 170%;
+    font-size: 20px;
+  }
+
+  .gt {
+    flex-direction: column;
+  }
+
+  .ft {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .main6 {
+    flex-direction: column;
+  }
+
+  .main7 {
+    flex-direction: column;
+  }
+}
+
+/* =========================for Phones==================================================== */
+
+@media (max-width: 480px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    top: 15px;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  nav img {
+    width: 120px;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .hero > :nth-child(1),
+  .hero > :nth-child(2) {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .hero > :nth-child(3) {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .hero > :nth-child(4) {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .start {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .start input {
+    width: 80%;
+    padding: 10px 15px;
+  }
+
+  .start button {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .main2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+.s2{
+      width: 100%;
+}
+
+.pics {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.pic-item img {
+  height: 200px;
+}
+
+.pic-num {
+  font-size: 50px;
+}
+
+.pics {
+  scrollbar-width: none; 
+}
+
+.pics::-webkit-scrollbar {
+  display: none; 
+}
+
+
+  .scroll {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .scroll > div {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .faq {
+    width: 100%;
+  }
+
+  .item {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .gt {
+    flex-direction: column;
+  }
+
+  .gt input {
+    width: 80%;
+    padding: 10px 15px;
+  }
+
+  .gt button {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .ft {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .main6,
+  .main7 {
+    flex-direction: column;
+  }
+
+  .last {
+    font-size: 12px;
+  }
+}
+
+
+/* ==========================for big phones=============================================== */
+
+
+@media (max-width: 600px) {
+  nav {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  nav img{
+    width: 100px;
+  }
+
+
+  nav select {
+    width: 40%; 
+  }
+
+  nav button {
+    width: 40%;
+  }
+
+
+ .sc1 img{
+    margin-top: 45px;
+}
+
+ .sc4 img{
+    margin-top: 15px;
+}
+
+  .item{
+    width: 90%;
+  }
+
+  .s5 span{
+    font-size: 15px;
+    margin-left: -1px;
+    }
+}
