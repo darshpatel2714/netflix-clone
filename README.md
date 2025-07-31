@@ -26,7 +26,6 @@ Netflix/
 ## 🌐 Live Demo
 
 [View Live Site](https://netfliixzone.netlify.app/)  
-*(Replace with your Netlify URL)*
 
 ## 📷 Screenshots of Desktop
 <img width="1900" height="848" alt="image" src="https://github.com/user-attachments/assets/b079ce48-b1eb-4df1-831f-d826b3d36c28" />
